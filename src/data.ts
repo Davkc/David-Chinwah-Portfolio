@@ -52,3 +52,12 @@ export const skills = [
 ]
 
 export const figmaProject = { name: 'Sukulu', description: 'African EdTech platform design system · gamified challenges, token rewards & leaderboards', url: 'https://www.figma.com/REPLACE-WITH-PROJECT-LINK' }
+
+
+projects.push({
+  number: '04', title: 'Tug of Words', category: 'REAL-TIME GAME · MULTIPLAYER', summary: 'A fast word battle where every correct answer moves the line.',
+  problem: 'Multiplayer word games need quick rounds, simple invites, and enough variety to keep every match lively.',
+  built: 'A room-based, server-authoritative tug-of-war with balanced teams, practice bots, streak freezes, chaotic word twists, rematches, and live player stats.',
+  stack: ['Node.js', 'WebSockets', 'Express', 'JavaScript'], live: 'https://tug-of-words-xffo.onrender.com', code: 'https://github.com/Davkc/Tug-of-Words',
+  image: '/images/tug-of-words-card.svg', alt: 'Tug of Words rope and flag graphic with red and blue team colors.',
+})
